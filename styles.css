@@ -1,0 +1,49 @@
+button {
+    padding: 10px 20px;
+    font-size: 14px; /* Adjusted font size */
+    border: 2px solid #3498db;
+    background-color: #fff;
+    color: #3498db;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    outline: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
+
+  @media (max-width: 600px) {
+    button {
+      font-size: 12px; /* Adjusted font size for smaller screens */
+    }
+  }
+
+  /* Add animations if desired */
+  @keyframes scale {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+
+  .animated-button {
+    animation: scale 1s infinite;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .md\\:ml-auto {
+      margin-left: auto !important;
+    }
+  }
+  .mobile-border-b {
+    border-bottom: 2px solid #e2e8f0; /* Add your desired border color */
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
